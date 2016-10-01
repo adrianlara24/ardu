@@ -4,8 +4,14 @@
   "description": "ardu backend",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adrian Lara",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.1"
+  }
 }
